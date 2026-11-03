@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
-
-API_URL = "http://127.0.0.1:8000/student/predict"
+from config import API_URL
 
 st.title("Student Performance Predictor")
 st.markdown("Enter your details to predict stduent preformance")
